@@ -1,0 +1,129 @@
+body {
+    font-family: Roboto;
+}
+
+hr{
+    background: #8D9196;
+    height: 1px;
+    border: none;
+}
+
+.main-section {
+    background: #393f49;
+    margin: 5% 15%;
+    padding: 2.8rem;
+    border-radius: 5px;
+    box-shadow: 3px 3px 9px 3px rgba(0,0,0,0.3);
+}
+
+.header {
+    margin-bottom: 3rem;
+}
+
+.date {
+    color: #fff;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.number-of-tasks {
+    color: #6ee2ff;
+    font-size: 12px;
+    margin-bottom: 1rem;
+}
+
+.error {
+    display: block;
+    font-size: x-small;
+    color: red;
+    position: absolute;
+}
+
+.no-tasks {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.no-tasks span {
+    color: #6ee2ff;
+    text-decoration: underline;
+}
+
+.add-section {
+    display: block;
+}
+
+.add-section input {
+    width: 21.6rem;
+    height: 1.5rem;
+    font-size: 14px;
+    border: 0px solid #fff;
+    border-radius: 3px;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.add-btn {
+    width: 6rem;
+    height: 2.5rem;
+    background: #00ccff;
+    color: #fafafa;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+}
+
+.add-btn:hover {
+    opacity: 0.7;
+    transition: 0.2s;
+}
+
+.task {
+    border-top: 1px solid #8D9196;
+    margin-bottom: 1rem;
+}
+
+.task p {
+    display: inline-block;
+    font-size: 15px;
+    color: #fafafa;
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+}
+
+.task small {
+    display: block;
+    color: #888;
+    font-size: 10px;
+    padding-left: 1.1rem;
+}
+
+.remove-task-btn {
+    background-color: #393f49;
+    float: right;
+    cursor: pointer;
+    border: none;
+    margin-top: 1.9rem;
+}
+
+.fa-trash {
+    color: #fff;
+}
+
+.fa-trash:hover {
+    transition: 0.2s;
+    color: crimson;
+}
+
+.checked {
+    color: #999 !important;
+    text-decoration: line-through;
+}
+
+#loading {
+    display: block;
+    height: 2rem;
+    margin: 0 auto;
+}
